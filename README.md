@@ -35,11 +35,9 @@
 
   | [Chanice St Louis](https://github.com/chanicestl "Chanice St Louis' GitHub") |
   |:----------------:|
-  | ![alt text](https://s25.postimg.org/nkxznyrvf/chanice_stlouis.png "Chanice St Louis") |
   | [LinkedIn](https://www.linkedin.com/in/chanice-stlouis/) / [GitHub](https://github.com/chanicestl) / [Twitter](https://twitter.com/chanicestlouis) / [Email](mailto:chanicestlouis2020@gmail.com) |
 
 ## <a name="tech-stack"></a>Tech Stack
 
-  | Backend | SRC |
   | [Node.js](https://github.com/nodejs/node) | [React.js](https://github.com/facebook/react) |
   | [Express.js](https://github.com/expressjs/express) |
