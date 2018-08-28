@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import style from 'styled-components';
 
 import Header from '../components/Header';
@@ -8,13 +8,13 @@ import QuestionnaireField from '../components/QuestionnaireField';
 export default class Onboarding extends Component {
   state = {
     customerName: '',
-    pupsName: null,
+    pupsName: '',
     zipCode: null,
     email: null,
     breedStatus: null,
-    breed: null,
-    breed2: null,
-    gender: null,
+    breed: '',
+    breed2: '',
+    gender: '',
     neutured: false,
     birthdayMonth: null,
     birthdayYear: null,
@@ -32,7 +32,7 @@ export default class Onboarding extends Component {
   }
 
   render() {
-    return(
+    return (
       <PageContainer>
         <Header />
         <DiscountBanner>
@@ -42,7 +42,10 @@ export default class Onboarding extends Component {
         </DiscountBanner>
         <QuestionnaireField
           handleInputChange={this.handleInputChange}
-          customerName={this.state.customerName}
+          pupsName={this.state.pupsName}
+          breed={this.state.breed}
+          breed2={this.state.breed2}
+          gender={this.state.gender}
         />
       </PageContainer>
     )

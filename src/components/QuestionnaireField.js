@@ -1,13 +1,56 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import style from 'styled-components'
 
+// function getSteps() {
+//   return ['customerName',
+//           'pupsName',
+//           'zipCode',
+//           'email',
+//           'breedStatus',
+//           'breed',
+//           'breed2',
+//           'gender',
+//           'neutured',
+//           'birthdayMonth',
+//           'birthdayYear',
+//           'temperament',
+//           'weight',
+//           'bodyType',
+//           'currentFoodType',
+//           'primaryProtein',
+//           'allergies',
+//         ];
+// }
+
+// function getStepContent(step) {
+//   switch (step) {
+//     case 0:
+//       return `My name is`;
+//     case 1:
+//       return `and my pup's name is`;
+//     case 2:
+//       return `My zip code is`;
+//     case 3:
+//       return `${props.pupsName} is a `;
+//     case 4:
+//       return `of a ${props.breed} `
+//     case 5:
+//       return `and a ${props.breed2} to be precise`
+//     case 6:
+//       return `${props.pupsName} is a ${props.gender}`
+//     default:
+//       return 'unknown step'
+//   }
+// }
+
 const QuestionnaireField = props => {
+  console.log(props);
   return (
     <QuestionnaireFieldContainer>
       <Prompt>My name is</Prompt>
-    <AnswerInput>
-      <input type='text' onChange={props.handleInputChange.bind(this, 'customerName')} value={props.customerName}/>
-    </AnswerInput>
+      <AnswerInput>
+        <input type='text' onChange={props.handleInputChange.bind(this, 'pupsName')} value={props.pupsName}/>
+      </AnswerInput>
     </QuestionnaireFieldContainer>
   )
 }

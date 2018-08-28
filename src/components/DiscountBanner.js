@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import style from 'styled-components';
 
-const DiscountBanner = (props) => {
-  return(
+const DiscountBanner = props => {
+  return (
     <Fragment>
       <Banner>
         {props.children}

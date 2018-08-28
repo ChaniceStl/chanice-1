@@ -11,7 +11,7 @@ export default class Header extends Component {
 
           <Logo src={ollieLogo} alt="Ollie Logo" />
 
-      </LogoContainer>
+        </LogoContainer>
       </Fragment>
     )
   }
